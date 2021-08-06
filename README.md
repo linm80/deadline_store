@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Deadline Store Electronics Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A shop app for the Deadline Store Electronics, built using commercejs SDK, reactjs, bulma and materialui icons.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Deadline now serves your every technology need!
 
-### `yarn start`
+Deadline store is an electronic online retailer serving education, maker, and professional engineering industries. We propose products with high quality and reasonable price as we aim to be one of the fastest growing distributors of electronic components in the region.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From prototype to production, we are here to fuel innovation all over the world targeting both Engineer and beginers. We strive to offer well-engineered, quality products that enable our customers to take their own projects from idea to reality.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Why Us ?
 
-### `yarn test`
+Unbeatable local price
+No Minimum Order Requirement
+Excellent Customer Service
+Commitment to support
+Additionnal Services:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Custom Assembly
 
-### `yarn build`
+Does one of our existing original boards almost meet your needs, but isn’t a perfect fit?
+Do you wish it had a specific connector, a pigtail, or certain pins populated with a header? We can modify existing boards to add or remove components to fit your needs, creating the ideal board for you.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Development Board Design & Manufacturing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Turn your sensors, ICs, modules and components into easy-to-use breakout boards. Our engineers will finesse your product, helping you achieve market share faster. SparkFun’s development boards streamline your customers’ ability to integrate your tech into their prototypes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Custom Kit Development
 
-### `yarn eject`
+With our Custom Kit program, you can create the exact kit you need. Tell us the components you need, or we can collaborate with you to define parts needed and develop a customer experience based on your idea. Once the kit is ready, we will either ship it to you or build a custom web page where your customers can purchase it directly from us.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- There is no critical dependency, you need node (v10+) and npm installed.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Usage
 
-## Learn More
+- For the owner, you can download only the build folder and deploy it.
+- For the dev, clone the repo and install the packages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Deployement
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment is provided in gcp, credentials and other info are to be comminucated privatly.
 
-### Code Splitting
+### Dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get the project going
 
-### Analyzing the Bundle Size
+```
+git clone https://github.com/linm80/deadline_store.git
+cd /deadline-store
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To Start the server
 
-### Making a Progressive Web App
+```
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To build the app
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run build
+```
