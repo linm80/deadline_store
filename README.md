@@ -67,3 +67,7 @@ To build the app
 ```
 npm run build
 ```
+
+## Author
+
+linm--inm--Omar-Saidi
